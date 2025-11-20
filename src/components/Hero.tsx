@@ -1,8 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import profilePic from '../../assets/gambar9.png';
-import arrowDown from '../../assets/Vector1.png';
-import backgroundImage from '../../assets/gambar2.jpg';
+import profilePic from '/gambar9.png';
+import arrowDown from '/Vector1.png';
+import backgroundImage from '/gambar2.jpg';
 
 const Hero: React.FC = () => {
   const handleScrollToProfile = () => {

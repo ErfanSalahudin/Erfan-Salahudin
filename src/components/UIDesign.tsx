@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import gambar1 from '../../assets/grui1.png';
-import gambar2 from '../../assets/grui2.png';
-import gambar3 from '../../assets/grui3.png';
-import gambar4 from '../../assets/tkui1.png';
-import gambar5 from '../../assets/tkui2.png';
-import gambar6 from '../../assets/tkui3.png';
-import gambar7 from '../../assets/blui1.png';
-import gambar8 from '../../assets/blui2.png';
-import gambar9 from '../../assets/blui3.png';
-import Vector3 from '../../assets/Vector3.png';
+import gambar1 from '/grui1.png';
+import gambar2 from '/grui2.png';
+import gambar3 from '/grui3.png';
+import gambar4 from '/tkui1.png';
+import gambar5 from '/tkui2.png';
+import gambar6 from '/tkui3.png';
+import gambar7 from '/blui1.png';
+import gambar8 from '/blui2.png';
+import gambar9 from '/blui3.png';
+import Vector3 from '/Vector3.png';
 
 const UIDesign: React.FC = () => {
   const [showScrollTop, setShowScrollTop] = useState(false);

@@ -1,11 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import profilePic from '../../assets/gambar9.png';
-import instagramIcon from '../../assets/instagram.png';
-import gmailIcon from '../../assets/gmail.png';
-import linkedinIcon from '../../assets/linkedin.png';
-import phoneIcon from '../../assets/phone.png';
-import backgroundImage from '../../assets/gambar2.jpg';
+import profilePic from '/gambar9.png';
+import instagramIcon from '/instagram.png';
+import backgroundImage from '/gambar2.jpg';
 
 const Contact: React.FC = () => {
   const contactItemVariants = {
@@ -54,9 +51,6 @@ const Contact: React.FC = () => {
           <div className="space-y-8">
             {[
               { icon: instagramIcon, alt: 'Instagram', text: '@revrnss / @edittrix_' },
-              { icon: gmailIcon, alt: 'Gmail', text: 'rdmuhamaderfansalahudin@gmail.com' },
-              { icon: linkedinIcon, alt: 'LinkedIn', text: 'Rd Muhamad Erfan Salahudin' },
-              { icon: phoneIcon, alt: 'Phone', text: '+6285591256012' },
             ].map((item, index) => (
               <motion.div
                 key={index}
